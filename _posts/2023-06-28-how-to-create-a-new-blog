@@ -1,0 +1,19 @@
+## How to write a new blog in Github
+
+Step #1: Open a Github Account
+
+Step #2: Create your own website (AKA "Repository") 
+
+Step #3: Create a new blog post within your own website
+
+- Navigate to the _posts folder on GitHub
+- Click Add file > Create new file
+- Name your file 2023-06-28-your-new-blog-post.md
+- Set the title of your blog post by using a markdown header (Write this as the first line ## This is my first blog post)
+- Add some content…write some random things, whatever you want
+- Throw in a code block (code blocks are created by surrounding your code snippet with three backticks at each end and an optional “language hint”), copy paste this in:Copy
+```tsql
+SELECT *
+FROM sys.tables
+     WHERE [name] = 'SomeTable'
+      ```
